@@ -1,0 +1,42 @@
+\documentclass[fleqn,12pt]{article}
+\input{preamble2}
+\usepackage{amsmath}
+\usepackage[colorlinks]{hyperref}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\begin{document}
+\thispagestyle{empty}
+
+\section*{Logic pset 3}
+
+Resources: HLW \href{https://www.jstor.org/stable/j.ctvxrpz0q.5}{Ch
+  2}, \href{https://princeton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bab527ef-2604-4956-af35-acbd0180a259}{Lecture 4} and \href{https://princeton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=85dd66c8-78cd-4799-b131-acbe01605214}{Lecture 5}
+
+\begin{enumerate}
+\item Prove that the following argument forms are valid.  The premises
+  are to the left of the $\vdash$ symbol, the conclusion is to the
+  right.  You should number the lines of your proof, and each line
+  must either be a premise (i.e.\ an assumption) or be justified by
+  one of the following rules of inference: $\wedge$I, $\wedge$E,
+  $\vee$I, MP, MT, or DN.
+\begin{enumerate}
+\item $P\to (Q\to R),\,P\to Q,\,P\:\vdash\: R$
+\item $P\:\vdash\: (P\vee R)\wedge (P\vee Q)$
+\item $P\:\vdash\: Q\vee (\neg\neg P\vee R)$  
+\item $\neg\neg Q\to P,\,\neg P\:\vdash\:\neg Q$
+\item $Q\to (P\to R),\,\neg R\wedge Q\:\vdash\: \neg P$
+\end{enumerate} \bigskip 
+
+\item Explain what is wrong with the following ``proof''.
+\[ \begin{array}{c l l l}
+     (1) & P\vee (Q\wedge R) & & \text{A}   \\
+     (2) & P\vee Q & & 1 \wedge\text{E} \end{array} \] 
+\end{enumerate}     
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
