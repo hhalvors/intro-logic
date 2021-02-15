@@ -1,0 +1,42 @@
+\documentclass[fleqn,12pt]{article}
+\input{preamble2}
+\usepackage{amsmath}
+\usepackage[colorlinks]{hyperref}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\begin{document}
+\thispagestyle{empty}
+
+\section*{Logic pset 6}
+
+Resources: HLW \href{https://www.jstor.org/stable/j.ctvxrpz0q.6}{Ch 3}
+and
+\href{https://princeton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3be71c4d-ebf5-4d02-9101-accf01077417}{Lecture 8}
+
+Rubric: Each proof is graded out of 4 points, according to the following scheme:
+\begin{description}
+  \item[4 points] absolutely perfect
+\item[3 points] the proof may contain a few misapplications of rules that could easily be remedied by, for example, adding a step. The most common mistake here is skipping a step of double negation elimination.
+\item[2 points] Some good thinking went into the argument, but as it
+  stands, it couldn’t easily be converted into a valid proof. This
+  category is mostly applicable to long proofs, where there are good
+  sub-arguments, but where the overall strategy is misguided.
+\item[1 point] something coherent was written.
+\item[0 points] nothing coherent was written. \end{description}
+
+Problems: You may use any of the rules of inference, including reductio ad
+absurdum, to prove the following sequents.
+\begin{enumerate}
+\item $P\to Q\:\vdash\: \neg (P\wedge\neg Q)$
+\item $(P\wedge Q)\to \neg Q\:\vdash\: P\to \neg Q$
+\item $P\to\neg P\:\vdash\:\neg P$
+\item $\neg (P\to Q)\:\vdash\: P\wedge\neg Q$
+\end{enumerate}     
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
